@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Fislab_Project
 {
-    public partial class FSimulation : Form
+    public partial class FDashboard : Form
     {
-        public FSimulation()
+        public FDashboard()
         {
             InitializeComponent();
         }

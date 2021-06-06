@@ -17,7 +17,7 @@ namespace Fislab_Project
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FMain_Act());
+            Application.Run(new FHome());
         }
     }
 }

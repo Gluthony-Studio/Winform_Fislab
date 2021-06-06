@@ -1,7 +1,7 @@
 ﻿
 namespace Fislab_Project
 {
-    partial class FSimulation
+    partial class FDashboard
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,20 @@ namespace Fislab_Project
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FDashboard
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FSimulation";
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(394, 501);
+            this.ControlBox = false;
+            this.Name = "FDashboard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "FDashboard";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

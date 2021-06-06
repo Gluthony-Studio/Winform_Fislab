@@ -1,8 +1,66 @@
 {
   "version": 2,
-  "dgSpecHash": "E7Bl22ojmrZfikBMQh043vfoVzIkKtQ4yFjHOmjwJzZa2iESSz7CXAi5h0Nd8t9kR959Pu5JV9ftjke3iDbaJA==",
+  "dgSpecHash": "qgApi0e+pe70+lC9bQmqQuDiE/mwxiaQ5zxBUJZdCr3EHcGdVEBaUAblAoxBdGfsBoCbh16yhsNQUjV8grZZUA==",
   "success": true,
   "projectFilePath": "D:\\Code Development\\C#\\Winform_Fislab\\Fislab_Project\\Fislab_Project\\Fislab_Project.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\firesharp\\2.0.4\\firesharp.2.0.4.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.bcl\\1.1.9\\microsoft.bcl.1.1.9.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.bcl.async\\1.0.168\\microsoft.bcl.async.1.0.168.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.bcl.build\\1.0.14\\microsoft.bcl.build.1.0.14.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.net.http\\2.2.28\\microsoft.net.http.2.2.28.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\6.0.4\\newtonsoft.json.6.0.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FireSharp 2.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "FireSharp",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Bcl 1.1.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Bcl",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Bcl.Async 1.0.168' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Bcl.Async",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Net.Http 2.2.28' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json 6.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
 }

@@ -25,5 +25,20 @@ namespace Fislab_Project
             velocity = Velocity;
             time = Time;
         }
+        public double calculateS()
+        {
+            s = velocity * time;
+            return s;
+        }
+        public double calculateV()
+        {
+            velocity = s / time;
+            return velocity;
+        }
+        public double calculateT()
+        {
+            time = s / velocity;
+            return time;
+        }
     }
 }

@@ -16,11 +16,23 @@ namespace Fislab_Project
             get { return _internet; }
             set { _internet = value; }
         }
-        public IFirebaseConfig config = new FirebaseConfig
+        private IFirebaseConfig config = new FirebaseConfig
         {
             AuthSecret = "KTkJ63vqljTTmt53tb8a4A93lrgN3sAuFG7q5t72",
             BasePath = "https://fislabproject-default-rtdb.firebaseio.com/"
         };
-        public IFirebaseClient client;
+        private IFirebaseClient client;
+        public bool check()
+        {
+            client = new FireSharp.FirebaseClient(config);
+            if(client != null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
