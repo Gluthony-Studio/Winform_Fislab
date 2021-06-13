@@ -33,5 +33,5 @@ D:\Code Development\C#\Winform_Fislab\Fislab_Project\Fislab_Project\obj\Debug\ne
 D:\Code Development\C#\Winform_Fislab\Fislab_Project\Fislab_Project\obj\Debug\net5.0-windows\Fislab_Project.Fglb.resources
 D:\Code Development\C#\Winform_Fislab\Fislab_Project\Fislab_Project\obj\Debug\net5.0-windows\Fislab_Project.Fglbb.resources
 D:\Code Development\C#\Winform_Fislab\Fislab_Project\Fislab_Project\obj\Debug\net5.0-windows\Fislab_Project.Fgmb.resources
-D:\Code Development\C#\Winform_Fislab\Fislab_Project\Fislab_Project\obj\Debug\net5.0-windows\Fislab_Project.Fkatrol.resources
 D:\Code Development\C#\Winform_Fislab\Fislab_Project\Fislab_Project\obj\Debug\net5.0-windows\Fislab_Project.Fparabola.resources
+D:\Code Development\C#\Winform_Fislab\Fislab_Project\Fislab_Project\obj\Debug\net5.0-windows\Fislab_Project.FQnA.resources

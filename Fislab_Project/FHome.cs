@@ -32,6 +32,10 @@ namespace Fislab_Project
             connect data = new connect();
             connection = data.check();
         }
+        private void FHome_Close(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -63,9 +67,14 @@ namespace Fislab_Project
 
         private void btnOffline_Click(object sender, EventArgs e)
         {
-            Fmenu menu = new Fmenu();
+            Fmenu menu = new Fmenu(0);
             menu.Show();
             this.Hide();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

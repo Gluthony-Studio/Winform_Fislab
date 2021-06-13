@@ -34,5 +34,9 @@ namespace Fislab_Project
                 return false;
             }
         }
+        public IFirebaseClient Client
+        {
+            get { return client; }
+        }
     }
 }

@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using FireSharp.Config;
+using FireSharp.Interfaces;
+using FireSharp.Response;
 
 namespace Fislab_Project
 {
@@ -16,33 +19,77 @@ namespace Fislab_Project
         public FLogin()
         {
             InitializeComponent();
-            connect data = new connect();
-            connection = data.check();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(connection == true)
+            if (connection == true)
             {
-                userAccount user = new userAccount();
-                if(tbUsername.Text != null || tbPassword.Text != null)
+                if (tbUsername.Text != null && tbPassword.Text != null)
                 {
-                    user.login(tbUsername.Text, tbPassword.Text);
+                    try
+                    {
+                        var result = client.Get("Account/" + tbUsername.Text);
+                        userAccount account = result.ResultAs<userAccount>();
+                        if (account.password == tbPassword.Text)
+                        {
+                            successlogin();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Your password is incorrect!");
+                            tbPassword.Clear();
+                            tbPassword.Focus();
+                        }
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Your username is incorrect");
+                        tbUsername.Clear();
+                        tbUsername.Focus();
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Input your username and password!");
+                    MessageBox.Show("Please input username and password");
                 }
             }
             else
             {
-                MessageBox.Show("You're not connected to internet");
+                MessageBox.Show("Pleas check your internet connection");
+            }
+        }
+        public void successlogin()
+        {
+            MessageBox.Show("Your account succes login!");
+            FDashboard dashboard = new FDashboard();
+            dashboard.Show();
+            this.Hide();
+        }
+        IFirebaseConfig config = new FirebaseConfig
+        {
+            AuthSecret = "KTkJ63vqljTTmt53tb8a4A93lrgN3sAuFG7q5t72",
+            BasePath = "https://fislabproject-default-rtdb.firebaseio.com/"
+        };
+        private IFirebaseClient client;
+        private void FLogin_Load(object sender, EventArgs e)
+        {
+            client = new FireSharp.FirebaseClient(config);
+            if (client != null)
+            {
+                connection = true;
+            }
+            else
+            {
+                connection = false;
             }
         }
 
-        private void FLogin_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            FHome home = new FHome();
+            home.Show();
+            this.Hide();
         }
     }
 }

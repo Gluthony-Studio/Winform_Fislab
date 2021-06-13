@@ -30,12 +30,30 @@ namespace Fislab_Project
             set{_vt = value;}
         }
         public c_glbb(){}
-        public c_glbb(double S, double Time, double Acceleration, double Vo, double Vt){
-            s = S;
-            time = Time;
-            acceleration = Acceleration;
-            vo = Vo;
-            vt = Vt;
+        public double calculateS(double Time, double Vo, double Acceleration)
+        {
+            s = Vo * Time + 0.5 * Acceleration * Math.Pow(Time, 2);
+            return s;
+        }
+        public double calculateT(double S, double Vo, double Vt)
+        {
+            time = 2 * S / (Vo + Vt);
+            return time;
+        }
+        public double calculatea(double time, double Vo, double Vt)
+        {
+            acceleration = (Vt-Vo)/time;
+            return acceleration;
+        }
+        public double calculatevo(double Vt, double Acceleration, double Time)
+        {
+            vo = Vt - Acceleration * Time;
+            return vo;
+        }
+        public double calculatevt(double Vo, double Acceleration, double Time)
+        {
+            vt = Vo + Acceleration * Time;
+            return vt;
         }
     }
 }

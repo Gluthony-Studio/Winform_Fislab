@@ -7,47 +7,93 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using FireSharp.Config;
+using FireSharp.Interfaces;
+using FireSharp.Response;
 
 namespace Fislab_Project
 {
     public partial class FSignUp : Form
     {
         private bool connection;
+        
         public FSignUp()
         {
             InitializeComponent();
-            connect data = new connect();
-            connection = data.check();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(connection == true)
+            if (connection == true)
             {
-                userAccount user = new userAccount();
-                if(tbUsername.Text != null || tbPassword.Text != null || tbEmail.Text != null)
+                if (tbUsername.Text != null && tbEmail.Text!=null && tbPassword.Text!=null)
                 {
-                    user.signup(tbUsername.Text, tbEmail.Text, tbPassword.Text);
+                    try
+                    {
+                        var result = client.Get("Account/" + tbUsername);
+                        userAccount Caccount = result.ResultAs<userAccount>();
+                        failed();
+                    }
+                    catch
+                    {
+                        userAccount account = new userAccount
+                        {
+                            username = tbUsername.Text,
+                            email = tbEmail.Text,
+                            password = tbPassword.Text
+                        };
+                        var setter = client.Set("Account/" + tbUsername.Text, account);
+                        success();
+                    }
                 }
-                else
-                {
-                    MessageBox.Show("Input your data!");
-                }                
             }
             else
             {
-                MessageBox.Show("You're not connected to internet");
+                MessageBox.Show("Please check your internet connection!");
             }
         }
         public void success()
         {
+            MessageBox.Show("Your account succesfull register. Please login");
             FLogin login = new FLogin();
             login.Show();
             this.Hide();
         }
         public void failed()
         {
-            MessageBox.Show("Your account failed to regster");
+            MessageBox.Show("Username sudah terpakai");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FLogin login = new FLogin();
+            login.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FHome home = new FHome();
+            home.Show();
+            this.Hide();
+        }
+        IFirebaseConfig config = new FirebaseConfig
+        {
+            AuthSecret = "KTkJ63vqljTTmt53tb8a4A93lrgN3sAuFG7q5t72",
+            BasePath = "https://fislabproject-default-rtdb.firebaseio.com/"
+        };
+        private IFirebaseClient client;
+        private void FSignUp_Load(object sender, EventArgs e)
+        {
+            client = new FireSharp.FirebaseClient(config);
+            if (client != null)
+            {
+                connection = true;
+            }
+            else
+            {
+                connection = false;
+            }
         }
     }
 }

@@ -29,13 +29,5 @@ namespace Fislab_Project
             get { return _email; }
             set { _email = value; }
         }
-        public void login(string Username, string Password)
-        {
-
-        }
-        public void signup(string Username, string Email, string Password)
-        {
-
-        }
     }
 }

@@ -118,13 +118,91 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bgSimulasi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgSimulasi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QnA Panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QnA Panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bgDashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgDashboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_fislab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_fislab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_menu2_pxSize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_menu2_pxSize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QnA Panel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QnA Panel2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_Home_btnfix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_Home_btnfix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QnA Panel3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QnA Panel3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bgQnA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgQnA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_SignUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_SignUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_login_pxSize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_login_pxSize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bgGLBB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgGLBB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bgMenuFix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgMenuFix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QnA Panel4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QnA Panel4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_Home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bgQnA3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgQnA3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo Fislab2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo Fislab2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logo Fislab1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo Fislab1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bgQnA2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgQnA2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_menu2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_menu2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo Fislab" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo Fislab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo Fislab2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo Fislab2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bgParabolic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgParabolic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_login_pxSizeFix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_login_pxSizeFix.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bgGLB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgGLB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_fislab1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_fislab1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GMBB_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GMBB_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bgDashboard2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgDashboard2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bgGMB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgGMB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bgThermal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgThermal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

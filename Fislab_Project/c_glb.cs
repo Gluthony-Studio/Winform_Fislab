@@ -20,22 +20,17 @@ namespace Fislab_Project
             set{_time = value;}
         }
         public c_glb(){}
-        public c_glb(double S, double Velocity, double Time){
-            s = S;
-            velocity = Velocity;
-            time = Time;
-        }
-        public double calculateS()
+        public double calculateS(double Time, double Velocity)
         {
-            s = velocity * time;
+            s = Velocity * Time;
             return s;
         }
-        public double calculateV()
+        public double calculateV(double Time, double Distance)
         {
-            velocity = s / time;
+            velocity = Distance / Time;
             return velocity;
         }
-        public double calculateT()
+        public double calculateT(double Velocity, double Distance)
         {
             time = s / velocity;
             return time;
