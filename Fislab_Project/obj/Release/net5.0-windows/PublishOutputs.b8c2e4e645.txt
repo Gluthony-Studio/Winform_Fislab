@@ -1,0 +1,12 @@
+D:\Code Development\C#\Winform_Fislab\Fislab.exe\Fislab_Project.exe
+D:\Code Development\C#\Winform_Fislab\Fislab.exe\Fislab_Project.dll
+D:\Code Development\C#\Winform_Fislab\Fislab.exe\Fislab_Project.deps.json
+D:\Code Development\C#\Winform_Fislab\Fislab.exe\Fislab_Project.runtimeconfig.json
+D:\Code Development\C#\Winform_Fislab\Fislab.exe\Fislab_Project.pdb
+D:\Code Development\C#\Winform_Fislab\Fislab.exe\FireSharp.dll
+D:\Code Development\C#\Winform_Fislab\Fislab.exe\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Code Development\C#\Winform_Fislab\Fislab.exe\Microsoft.Threading.Tasks.Extensions.dll
+D:\Code Development\C#\Winform_Fislab\Fislab.exe\Microsoft.Threading.Tasks.dll
+D:\Code Development\C#\Winform_Fislab\Fislab.exe\System.Net.Http.Extensions.dll
+D:\Code Development\C#\Winform_Fislab\Fislab.exe\System.Net.Http.Primitives.dll
+D:\Code Development\C#\Winform_Fislab\Fislab.exe\Newtonsoft.Json.dll

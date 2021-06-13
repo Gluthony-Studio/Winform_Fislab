@@ -42,7 +42,7 @@ namespace Fislab_Project
                 comboBox1.Items.Add("Vertical Initial Velocity");
                 comboBox1.Items.Add("Vertical Velocity");
                 comboBox1.Items.Add("High");
-                comboBox1.Items.Add("Maxiumum High");
+                comboBox1.Items.Add("Maximum High");
             }
         }
 
@@ -56,7 +56,7 @@ namespace Fislab_Project
                 comboBox1.Items.Add("Horizontal Initial Velocity");
                 comboBox1.Items.Add("Horizontal Velocity");
                 comboBox1.Items.Add("Distance");
-                comboBox1.Items.Add("Maxiumum Distance");
+                comboBox1.Items.Add("Maximum Distance");
             }
         }
 
@@ -178,7 +178,7 @@ namespace Fislab_Project
                     tbClue1.Enabled = true;
                     tbClue2.Enabled = true;
                     tbClue3.Enabled = false;
-                    tbClue3.Enabled = false;
+                    tbClue4.Enabled = false;
                     clue1.Text = "Initial Velocity";
                     clue2.Text = "Alpha";
                     clue3.Text = "-";
@@ -189,7 +189,7 @@ namespace Fislab_Project
                     tbClue1.Enabled = true;
                     tbClue2.Enabled = true;
                     tbClue3.Enabled = true;
-                    tbClue3.Enabled = true;
+                    tbClue4.Enabled = true;
                     clue1.Text = "Initial Velocity";
                     clue2.Text = "Alpha";
                     clue3.Text = "Gravitation";
@@ -200,7 +200,7 @@ namespace Fislab_Project
                     tbClue1.Enabled = true;
                     tbClue2.Enabled = true;
                     tbClue3.Enabled = true;
-                    tbClue3.Enabled = true;
+                    tbClue4.Enabled = true;
                     clue1.Text = "Initial Velocity";
                     clue2.Text = "Time";
                     clue3.Text = "Alpha";
@@ -211,7 +211,7 @@ namespace Fislab_Project
                     tbClue1.Enabled = true;
                     tbClue2.Enabled = true;
                     tbClue3.Enabled = true;
-                    tbClue3.Enabled = false;
+                    tbClue4.Enabled = false;
                     clue1.Text = "Initial Velocity";
                     clue2.Text = "Alpha";
                     clue3.Text = "Gravitation";
@@ -222,7 +222,7 @@ namespace Fislab_Project
                     tbClue1.Enabled = true;
                     tbClue2.Enabled = true;
                     tbClue3.Enabled = false;
-                    tbClue3.Enabled = false;
+                    tbClue4.Enabled = false;
                     clue1.Text = "Initial Velocity";
                     clue2.Text = "Alpha";
                     clue3.Text = "-";
@@ -233,7 +233,7 @@ namespace Fislab_Project
                     tbClue1.Enabled = true;
                     tbClue2.Enabled = true;
                     tbClue3.Enabled = true;
-                    tbClue3.Enabled = true;
+                    tbClue4.Enabled = true;
                     clue1.Text = "Initial Velocity";
                     clue2.Text = "Alpha";
                     clue3.Text = "Gravitation";
@@ -244,7 +244,7 @@ namespace Fislab_Project
                     tbClue1.Enabled = true;
                     tbClue2.Enabled = true;
                     tbClue3.Enabled = true;
-                    tbClue3.Enabled = false;
+                    tbClue4.Enabled = false;
                     clue1.Text = "Initial Velocity";
                     clue2.Text = "Time";
                     clue3.Text = "Alpha";
@@ -255,7 +255,7 @@ namespace Fislab_Project
                     tbClue1.Enabled = true;
                     tbClue2.Enabled = true;
                     tbClue3.Enabled = true;
-                    tbClue3.Enabled = false;
+                    tbClue4.Enabled = false;
                     clue1.Text = "Initial Velocity";
                     clue2.Text = "Alpha";
                     clue3.Text = "Gravitation";
@@ -266,7 +266,7 @@ namespace Fislab_Project
                     tbClue1.Enabled = false;
                     tbClue2.Enabled = false;
                     tbClue3.Enabled = false;
-                    tbClue3.Enabled = false;
+                    tbClue4.Enabled = false;
                     clue1.Text = "-";
                     clue2.Text = "-";
                     clue3.Text = "-";

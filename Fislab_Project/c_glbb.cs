@@ -35,9 +35,9 @@ namespace Fislab_Project
             s = Vo * Time + 0.5 * Acceleration * Math.Pow(Time, 2);
             return s;
         }
-        public double calculateT(double S, double Vo, double Vt)
+        public double calculateT(double a, double Vo, double Vt)
         {
-            time = 2 * S / (Vo + Vt);
+            time = (Vt - Vo)/a;
             return time;
         }
         public double calculatea(double time, double Vo, double Vt)

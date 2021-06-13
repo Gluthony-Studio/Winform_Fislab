@@ -32,7 +32,7 @@ namespace Fislab_Project
         }
         public double calculateT(double Velocity, double Distance)
         {
-            time = s / velocity;
+            time = Distance / Velocity;
             return time;
         }
     }

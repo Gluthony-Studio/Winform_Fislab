@@ -58,7 +58,7 @@ namespace Fislab_Project
                     break;
                 case "Time":
                     cases = 2;
-                    clue1.Text = "Distance";
+                    clue1.Text = "Acceleration";
                     clue2.Text = "Inital Velocity";
                     clue3.Text = "Final Velocity";
                     break;
@@ -116,7 +116,7 @@ namespace Fislab_Project
                                 break;
                             case 2:
                                 answer = glbb.calculateT(Clue1, Clue2, Clue3);
-                                equation = ("(2 x " + Clue1 + ") / (" + Clue2 + " + " + Clue3 + ")");
+                                equation = ("(" + Clue3 + " - " + Clue2 + ") /" + Clue1);
                                 break;
                             case 3:
                                 answer = glbb.calculateS(Clue1, Clue2, Clue3);

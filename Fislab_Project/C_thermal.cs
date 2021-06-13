@@ -36,7 +36,7 @@ namespace Fislab_Project
         {
             fahrenheit = (9.0/5.0 * Celcius) + 32.0;
             kelvin = Celcius + 273.15;
-            reamur = 4/5 * Celcius;
+            reamur = 4.0/5.0 * Celcius;
             celcius = Celcius;
         }
         public void convertR(double Reamur)
